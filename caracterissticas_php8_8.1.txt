@@ -1,0 +1,25 @@
+PHP 8
+-Compilador Just-in-Time (JIT): Mejora significativa en el rendimiento al compilar el código en tiempo de ejecución.
+
+-Nuevas funciones: Incluye funciones como str_contains(), str_starts_with(), y str_ends_with().
+
+-Mejoras en el rendimiento: Optimizaciones en el intérprete y en el motor Zend.
+
+-Tipos de uni\u00F3n: Permite especificar múltiples tipos para argumentos de funciones y valores de retorno.
+
+-Propiedades de constructores: Mejora en la definición y uso de propiedades de constructores.
+
+-Uso de ::class en los objetos: Otra forma de sintetizar el código es aplicando directamente ::class a los objetos en lugar de get_class(), como hasta ahora.
+
+PHP 8.1
+-Enumeraciones (Enums): Introducción de tipos enumerados para definir conjuntos de valores predefinidos.
+
+-Propiedades de solo lectura: Nuevas propiedades que no pueden ser modificadas después de la inicialización.
+
+-Tipos de intersección: Permiten especificar que un valor debe cumplir con múltiples restricciones de tipo.
+
+-Nuevas funciones: Incluye funciones como array_is_list() y fsync().
+
+-Fibers: Nuevas capacidades para manejar múltiples hilos de ejecución.
+
+-Mejoras en el sistema de tipos: Se continúa añadiendo sintaxis y funciones para escribir aplicaciones más defensivas y tipificadas. Lo que puede significar que la nueva versión agregará nuevos avisos de alerta cuando las aplicaciones heredadas contengan firmas que no coinciden para las clases.
